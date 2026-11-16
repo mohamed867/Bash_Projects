@@ -33,7 +33,7 @@ Clone the repository and make the script executable:
 ```bash
 git clone https://github.com/mohamed867/Bash_Projects.git
 cd Bash_Projects
-chmod +x script.sh
+chmod +x recon.sh
 ```
 
 ---
@@ -42,12 +42,12 @@ chmod +x script.sh
 
 ### 1. Scan a single target (Domain or IP):
 ```bash
-./script.sh example.com
+./recon.sh example.com
 ```
 
 ### 2. Scan multiple targets from a file (Multi-threaded):
 ```bash
-./script.sh -f targets.txt
+./recon.sh -f targets.txt
 ```
 
 ---
